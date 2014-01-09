@@ -139,9 +139,36 @@ html {
 	border-top: 1px solid #e3e3e3;
 }
 
-@media screen and (max-width: 600px) {
+.insta {
+}
+.insta--pics {
+  text-align: justify;
+  width:100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height:150px;
+}
+.insta--pics li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.insta--pics img, .insta--pics li {
+  height:150px;
+  widows: 150px;
+}
+
+@media screen and (max-width: 660px) {
   .container {
     padding: 0 1em;
+  }
+  .insta {
+    width:300px;
+    margin:0 auto;
+  }
+  .insta--pics {
+    height:300px;
   }
 }
 
