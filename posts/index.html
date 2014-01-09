@@ -1,0 +1,12 @@
+---
+layout: default
+title: Blog | Dan Wilson | Frontend Developer | Manchester, UK
+image: none
+---
+
+{% for post in site.posts %}
+	<article class="post--list">
+		<h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+		<p class="date"><em>{{ post.date | date_to_string }}</em></p>
+	</article>
+{% endfor %}

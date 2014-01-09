@@ -1,44 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+  <head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{page.title}}</title>
+    <meta name="description" content="Hi there. Dan Wilson here, a frontend web developer from Manchester, UK. Currently studying but looking for a place to work after University.">
+    <!-- css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link rel="author" href="humans.txt">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="../"><h1>Dan Wilson</h1></a>
+        <h2 class="tag--line">Frontend Developer</h2>
+      </header>
+      {% if page.image != "none" %}
+        <img src="{{ page.image }}" alt="Danny Wilson" class="profile--picture">
+      {% endif %}
+      <article class="buttons grid">
+        <a class="unit one-of-three" href="/about">About</a>
+        <a class="unit one-of-three" href="/work/">Work</a>
+        <a class="unit one-of-three" href="/posts/">Blog</a>
+      </article>
+      <article class="content">
+        {{ content }}
+      </article>
+      <footer>
+        <p><em>Copyright&copy Daniel James Wilson 2013 / Powered by <a class="jekyll" href="http://jekyllrb.com"><span class="jek">Jek</span><span class="yll">yll</span></a> <span class="hyde">and Mr Hyde.</span></em></p>
+      </footer>
+    </div>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <script src="/js/main.js"></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+  ga('create', 'UA-45639655-1', 'danwilson.co');
+  ga('send', 'pageview');
 
-    </head>
-    <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
-
-    </body>
+  </script>
+  </body>
 </html>
