@@ -1,3 +1,3 @@
 <?php
 
-`git pull && jekyll build`;
+`cd /var/www/wilsonand1.github.io/ && git pull && jekyll build`;
