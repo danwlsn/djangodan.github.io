@@ -111,6 +111,9 @@ html {
   text-decoration: none;
 }
 
+.content h2 {
+  margin-bottom: 0;
+}
 .content h2 a {
   color: #424242;
   -webkit-transition: all 0.3s;
