@@ -138,6 +138,22 @@ html {
 	margin-bottom: 0;
 }
 
+.view--site {
+  text-align: center;
+}
+.view--site .view--site--btn {
+  padding:0.5em 1em;
+  border: 2px solid #bbb;
+  color:#bbb;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.view--site .view--site--btn:hover {
+  text-decoration: none;
+  border-color: #777;
+  color: #777;
+}
+
 .post--list {
 	border-top: 1px solid #e3e3e3;
 }
