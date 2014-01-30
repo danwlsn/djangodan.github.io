@@ -35,3 +35,6 @@ Lewis Hancock has been a good friend of mine for a long time. His first website 
 <p class="view--site">
 <a href="http://lewishancock.com" class="view--site--btn">View Site</a>
 </p>
+
+## University work
+Throughout University, I've had to complete a number of assignments. These assignments are too specific to be hosted on their own, so instead I put all the code up on [GitHub](http://github.com/wilsonand1). So here they all are: [PHP Web Calendar](https://github.com/wilsonand1/web-calendar), [C# Artist AVL Tree](https://github.com/wilsonand1/Artist-AVL-Tree), [Java Employee Records](https://github.com/wilsonand1/Employee-Record)
