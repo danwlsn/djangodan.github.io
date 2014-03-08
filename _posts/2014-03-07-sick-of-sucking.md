@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Well hello, Dr Jekyll"
-date:   2014-01-09 11:14:47
+title:  "Sick of sucking"
+date:   2014-03-07 20:14:47
 image: none
 ---
 
@@ -12,7 +12,7 @@ I don't know if it's just me but I can't stand anything I've designed myself. I 
 The plan is three fold:
 
 ## Design more
-I read a post the other day about sketching everyday and the benefits that came from this habit (I can't find it, apologies). So I intend on doing something similar. Sketching out a website in my notebook a day. Or a logo. Or at least something relevant. Hopefully, the more I do it the better I will get. This should also improve my wireframming. I'm notoriously bad for jumping straight into my editor with an idea. Or just drawing a couple of boxes in my notebook. I need to start drawing up a proper wireframe and then take it further. But the design doesn't just stop there. The better of the designs and logos will hopefully get made up and then probably thrown on [Github](http://github.com/wilsonand1) or maybe I'll do something like [Benjamin Hawkyard's](http://benjaminhawkyard.co.uk) awesome [iconicle](http://iconicle.co) site to showcase them. But they probably won't make it off my hard drive. 
+I read a post the other day about sketching everyday and the benefits that came from this habit (I can't find it, apologies). So I intend on doing something similar. Sketching out a website in my notebook a day. Or a logo. Or at least something relevant. Hopefully, the more I do it the better I will get. This should also improve my wireframming. I'm notoriously bad for jumping straight into my editor with an idea. Or just drawing a couple of boxes in my notebook. I need to start drawing up a proper wireframe and then take it further. But the design doesn't just stop there. The better of the designs and logos will hopefully get made up and then probably thrown on [Github](http://github.com/wilsonand1) or maybe I'll do something like [Benjamin Hawkyard's](http://benjaminhawkyard.co.uk) awesome [iconicle](http://iconicle.co) site to showcase them. But they probably won't make it off my hard drive.
 
 ## Read more
 I do enjoy reading (sometimes) but its got to be the right kind of book. I'm not the biggest fiction reader. I usually just start thinking about something else that I should be doing, and then I can't think about anything else until I've done what I need to do. So I find it hard to read fiction books. Non-fiction however, I can read quite easily. I'm currently making my way through [Practical Vim](http://www.amazon.co.uk/Practical-Vim-Thought-Pragmatic-Programmers-ebook/dp/B00I8W50SY/ref=sr_1_1?ie=UTF8&qid=1394231551&sr=8-1&keywords=practical+vim) and [Ordering Disorder](http://www.amazon.co.uk/Ordering-Disorder-Principles-Design-Voices-ebook/dp/B004E9SUZK/ref=sr_1_1?ie=UTF8&qid=1394231675&sr=8-1&keywords=ordering+disorder). I plan to read more design books to build a theoretical knowledge on the topic. I'd also love to read more fiction books.
