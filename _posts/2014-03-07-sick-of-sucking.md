@@ -1,4 +1,9 @@
-# Sick of sucking
+---
+layout: post
+title:  "Well hello, Dr Jekyll"
+date:   2014-01-09 11:14:47
+image: none
+---
 
 I'm sick of sucking, at design that is. I've never been very creative. But now that I want to become a web developer, I'm going to have to start being able to design websites, and that requires me to be creative and stop sucking.
 
