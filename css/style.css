@@ -335,3 +335,29 @@ footer {
 .five-of-six {
   width: 80.35%;
 }
+
+
+.browser {
+  margin-top:50px;
+  border:2px solid #059A74;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width:100%;
+}
+.browser * {
+  margin-bottom: 0;
+}
+.browser .top--bar {
+  position: relative;
+  height:30px;
+  border-bottom:2px solid #059A74;
+}
+.browser .buttons {
+  position: absolute;
+  width:63px;
+  height: 16px;
+  background:url('../images/b.png');
+  margin-top: 5px;
+  left: 20px;
+  vertical-align: middle;
+}
