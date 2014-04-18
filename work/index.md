@@ -10,6 +10,20 @@ image: ../images/work.png
 
 [Grace](http://twitter.com/thatgracegirlca) has been blogging for just over a year now. And when she started pulling in a lot of hits, she said that she wanted to take her blog to the next level. And what better way to do that than with a new blog design.
 
+<div class="browser">
+<div class="top--bar">
+<div class="buttons">
+</div>
+</div>
+<div class="window">
+<img src="../images/tgg.png" alt="Recur fitness monitoring application">
+</div>
+</div>
+
+<p class="view--site">
+<a href="http://thatgracegirl.com" class="view--site--btn">View Site</a>
+</p>
+
 ##[Recur](http://recurapp.co)
 
 Recur is a web applciation for monitoring your fitness progress I built for my final year progject at university. It can monitor your current and goal weight, your fitness goals, and your fitness activity. With all of this information recur will be able to show you how well you are doing and keep you motivated! Recur was builtusing Ruby on Rails and hosted on [Heroku](http://heroku.com).
@@ -24,6 +38,10 @@ Recur is a web applciation for monitoring your fitness progress I built for my f
 <img src="../images/recur.png" alt="Recur fitness monitoring application">
 </div>
 </div>
+
+<p class="view--site">
+<a href="http://recurapp.co" class="view--site--btn">View Site</a>
+</p>
 
 ##[Unify](http://danwilson.co/unify)
 
