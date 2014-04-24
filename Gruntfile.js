@@ -98,6 +98,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   grunt.registerTask('default', ['watch']);
-  grunt.registerTask('build', ['sass', 'uglify', 'autoprefixer', 'imagemin'])
+  grunt.registerTask('build', ['sass', 'uglify', 'autoprefixer', 'cssmin', 'imagemin'])
 
 };
