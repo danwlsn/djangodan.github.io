@@ -210,15 +210,26 @@ header .tag--line {
   font-size: 1em;
 }
 
+.grid {
+  margin-left: -3%;
+  max-width: 105%;
+}
+
 .buttons {
   text-align: center;
 }
 
 .buttons a {
-  margin-right: -0.25em;
-  // margin-left: -5%;
   display: inline-block;
-  width:30%;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: top;
+  margin-left: 3%;
+  margin-right: -.25em;
+  /* Clearfix */
+  overflow: hidden;
+  *overflow: visible;
+  width: 30.36%;
   text-decoration: none;
   text-align: center;
   color: #bbbbbb;
