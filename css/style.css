@@ -314,3 +314,12 @@ footer {
   left: 20px;
   vertical-align: middle;
 }
+
+.not-found {
+  font-size: 5rem;
+}
+
+.not-found-sub {
+  font-size: 1.5rem;
+  text-align: center;
+}

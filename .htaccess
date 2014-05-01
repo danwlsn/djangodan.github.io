@@ -51,3 +51,5 @@ ExpiresByType text/css                  "access plus 1 year"
 ExpiresByType application/javascript    "access plus 1 year"
 </IfModule>
 ## EXPIRES CACHING ##
+
+ErrorDocument 404 /404.html
