@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Oh My Zsh"
+date:   2013-05-24 11:14:47
+image: none
+---
+
+So I've been developing on Mac now for nearly two years. Not long in comparison to the big guys, but long enough to know a thing or two. Until the other day, I stayed very much away from the terminal. I knew how to use it and wasn't at all scared by it, but I just didn't see how you could be more efficient with the command line over Finder. How wrong I was.
+
+It all started when I got [Alfred](http://www.alfredapp.com) which is, as everyone describes it, 'Spotlight on steroids'. And it is. It's amazing, and well worth paying £15 for the power pack solely for the massive increase in functionality. It's revolutionised the way I use my Mac. I used to be very mouse heavy, now I'm all about the keyboard shortcuts. This, along with the purchase of a VPS, urged me to delve straight into the command line. Enter Zsh.
+
+The default shell for Mac's terminal, and most others, is Bash. Now Bash is okay, but it's not Zsh. Zsh is miles ahead of Bash. It's functionality is through the roof, and it speeds everything up. But not only does it increase speed, it also makes the command line a lot more user friendly. Bash has awesome auto complete, and it can also show the contents directory with tab, but Zsh will then cycle through the options when you tab again.
+
+Another big plus of Zsh is 'ssh history'. Can't remember your VPS IP address? Just type 'ssh', hit the up arrow and you'll cycle through your 'ssh history'.
+
+I've saved the best for last. Aliases and functions. My goodness these are the best things to happen since forever. Correct me if I'm wrong, but I don't think you can create functions in Bash?  Anyway, if you're not using them, then you're missing out on some serious efficiency, and quality automation. For example, I use [Grunt.js](http://gruntjs.com) and I have default Grunt file and package.json stored in a GitHub repo. So if I wanted to pull that in to my working directory, I'd have to run the following commands:
+
+    ~ $ mkdir awesome-new-site
+    ~ $ cd awesome-new-site
+    ~ $ cp ~/Documents/GitHub/gruntfile/Gruntfile.js .
+    ~ $ cp ~/Documents/GitHub/gruntfile/package.json .
+
+Instead, I stick this following function into my ~./zshrc file:
+
+    function movegrunt() {cp ~/Documents/GitHub/gruntfile/Gruntfile.js . ; cp ~/Documents/GitHub/gruntfile/package.json . ;}
+
+And then all I have to do is run 'movegrunt' and it will move the Grunt files into my current directory. Of course, we don't have to stop there.
+
+So usually when I make a directory, I'm going to set up the folder hierarchy and touch some files. But I don't have to time write out all the command for that. What's the answer? You guessed it:
+
+    function newsite() {mkdir sass js images ; touch README.md index.html sass/style.scss js/main.js ; movegrunt ; sublime . ;}
+
+As you can see here, I've called another custom function inside another function. It just keeps getting better. At the end there, we also have a 'sublime' alias. What this does is open the directory in sublime.
+
+So there we go. I've had Zsh for about 3 days now, and it's already changed my workflow. And that's just the tip of the iceberg. There's a lot more to be done with Zsh than this, but there's only one way to find out. Open up your terminal and enter this to install Zsh:
+
+    curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+
+# iTerm 2
+On a quick but related note. [iTerm 2](http://www.iterm2.com) is awesome too. Panes, tabs and much much more. Definitely worth a try if you want to get your hands dirty in the line a lift more.

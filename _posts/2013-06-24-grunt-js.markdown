@@ -1,0 +1,96 @@
+---
+layout: post
+title:  "Grunt.js"
+date:   2013-06-24 11:14:47
+image: none
+---
+
+I've been using Codekit and Hammer for over a month, but I just picked up Grunt.js a few days ago and I wanted to write a blog about how awesome both tools are, and which one is best for you. So here goes.
+
+First we'll start with [Grunt.js](http://gruntjs.com). Grunt is a Javascript task runner, and it's awesome. It's strictly a command line tool and, like most other command line tools, is highly customisable. You're able to fine-tune how Grunt works for you on a project-by-project basis.
+
+Grunt uses two main files; a Javascript file called 'Gruntfile.js' and a 'package.json' file. These files work together to do everything for you so you don't have to do anything but code. You can see more information about this Grunt.js [getting started](http://gruntjs.com/getting-started) page.
+
+I have two default files setup in a [GitHub repo](https://github.com/wilsonand1/gruntfile) that I then pull using a [Zsh](https://github.com/robbyrussell/oh-my-zsh) function. You can read more about how awesome Zsh is in a [previous post](http://wilsonand1.github.io/2013/06/21/Oh-My-Zsh.html). Let's have a look at these files. First, the package.json.
+
+    {
+    "name": "RENAME",
+      "version": "0.1.0",
+      "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-uglify": "~0.2.2",
+        "grunt-contrib-compass": "~0.2.0",
+        "grunt-todos": "~0.1.0",
+        "grunt-contrib-watch": "~0.4.4"
+      }
+    }
+
+As you can see, it's pretty bare. It's literally just the bare minimum for what I need, and my default Grunt.js plugins. These are; Uglify for the Javascript, Compass for the scss/css, todos is something I would love to use but I can only get it to work in Javascript files, and watch so I don't have to keep running Grunt all the time. Now for the Gruntfile.js, and this is where things can get complicated so I'm going to break it down.
+
+
+    // Project configuration.
+      grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
+        uglify: {
+          options: {
+          },
+          my_target: {
+            files: {
+              'js/main.min.js' : ['js/main.js']
+            }
+          }
+        },
+
+This is the start of the Grunt configuration. As you can see, it read the package.json and then gets on to the configuration of the plugins. First up is Uglify. Now, I'm not big on Javascript just yet, so this is pretty bare. Basically, all it does just minify the min.'s file. You can add the other files by defining the destination file and then the source file.
+
+    compass: {
+      build: {
+        options: {
+          sassDir: 'sass',
+          cssDir: 'css',
+          outputStyle: 'compressed'
+        }
+      }
+    },
+
+Next up is the compass configuration. Keeping things super simple, I just specify the sass directory and the CSS directory. Another option I use is the output style. This can be either nested, expanded, compact, compressed. I've have to different tasks for compass. One for development, and one for build and then don't compress until build. I'd like to implement something like this soon, but a full build of the whole site.
+
+    watch: {
+      files: '**.*',
+      tasks: ['default'],
+      options: {
+	livereload:true,
+      },
+    },
+
+Another simple setup, this time for Watch. This is just so I don't have to keep running Grunt from the command line every time I want to compile my Javascript and CSS. I also have live reload enabled so even more automation.
+
+    todos: {
+      options: {
+        verbose: true
+      },
+      src : ['**/*.js']
+    }
+
+Lastly, 'to dos'. This looks at all the Javascript files, specified in the SRC option, and looks for a comment contain 'to do'. It's super awesome, if you use a lot of Javascript. When Grunt 'to do' is run, it will show you what file the 'to do' is in, what line it's on and what you've written in the comment after the 'to do'.
+
+      // Default task(s).
+      grunt.registerTask('default', ['uglify', 'compass']);
+
+After loading all the plugins, you can then specify different tasks. This one is a default task which runs Uglify, and Compass. Watch is not included in this as I run Grunt Watch, which then watches the default task. 
+
+That's my Grunt setup so far, I've only been using it for a couple of days, and I'm still learning, but it's working super well for me so far.
+
+Now I'll talk about [Codekit](http://incident57.com/codekit/) and [Hammer](http://hammerformac.com), mainly hammer as it has more features but both do pretty much the same job. They both do the same jobs as Grunt (uglify, minify, all that good stuff) but with the lack of plugins, there's no expansion.
+
+Even though there's no expansion, Hammer has a lot of awesome features. First of all, it does you're compiling and minifying of your Javascript, Haml and Sass, as you would expect. You can define all you're inputs and out puts without having to edit any files. 
+
+Next up, we have 'to dos'. I love these. Just stick in a comment with 'to do' in it and it will highlight them all in a pane on the app. This is part of Hammer tags, and it doesn't just stop there. Other Hammer tags include clever paths, which find the file you mean without the path. Something similar is 'HTML includes'. This allows you to use a similar set up to Wordpress, in which, for example, you have a header.html and then just @include it in the HTML file you would like. Easy.
+
+My absolute favourite Hammer function is publishing builds. This allows you to quickly posts builds online to show to your client or get some feedback on it. It also has some slight version control. Every time you upload a new build, it has a suffix of the upload count, so you can see what changes you've made side by side. 
+
+Overall, I do love Hammer. It's a great little app and super easy to use. It has amazing functionality, even though it has no plugins, and it meets the needs of most web developers.
+
+Still asking which one is for you? Let me give some advice. If you don't mind working in the terminal, or prefer it, then definitely go for Grunt and never look back. Its flexibility and expandability is through the roof. I'm going to say that for every feature Hammer has, there will be a plugin. And if there's not a plugin for your need, make one. But if you prefer a GUI, and don't mind paying £17, then go for Hammer. It's a breeze to use and will do a lot of the tasks you need to be done.
+
+So that's my take on the situation. I'd love to know what you think about the two options and which one your use and why.
