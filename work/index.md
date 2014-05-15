@@ -8,7 +8,8 @@ image: ../images/work.png
 
 ##[ThatGraceGirl](http://thatgracegirl.com)
 
-[Grace](http://twitter.com/thatgracegirlca) has been blogging for just over a year now. And when she started pulling in a lot of hits, she said that she wanted to take her blog to the next level. And what better way to do that than with a new blog design.
+[Grace](http://twitter.com/thatgracegirlca) has been blogging for just over a year now. And when she started pulling in a lot of hits, she said that she wanted to take her blog to the next level. And what better way to do that than with a new blog design. This site is currently up for Best Designed Blog in the Company Style Blogger Awards, and you can vote <a href="http://www.company.co.uk/magazine-hq/company-style-blogger-awards-2014" target="_blank">here</a>.
+
 
 <div class="browser">
 <div class="top--bar">
