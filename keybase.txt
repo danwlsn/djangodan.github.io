@@ -1,4 +1,67 @@
+://keybase.io/wilson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+* I am an admin of http://danwilson.co
+* I am wilson (https://keybase.io/wilson) on keybase.
+* I have a public key with fingerprint F625 3E83 1EEF E11E AF3E  B08C 4108 F3EB FC13 A570
+
+To claim this, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "fingerprint": "f6253e831eefe11eaf3eb08c4108f3ebfc13a570",
+        "host": "keybase.io",
+        "key_id": "4108f3ebfc13a570",
+        "uid": "ae58cdcf9d23cca9e1a11f01f91ff300",
+        "username": "wilson"
+    },
+      "service": {
+        "hostname": "danwilson.co",
+        "protocol": "http:"
+      },
+      "type": "web_service_binding",
+      "version": 1
+  },
+    "ctime": 1408698673,
+    "expire_in": 157680000,
+    "prev": "88f7cfb54b478ff9a15dcbe209ddf93a4bd9fd45fa5acd4bf0a2f044bdd1646f",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.3.1
+Comment: https://keybase.io/crypto
+
+yMHcAnicbVFbSBRRGN7VtBRLywuU4cNEBbXJnJ3LzixBhBkYBoJPtcF2ZuYcd3Kd
+GWdm10x3oSyMArMSMhRaCaIUXKxsK7CWjIrELibli0iQhJHSQ6xGiM1s9tZ5Oed8
+/3f5f/7n6zMduc51w9U/ixK+UedY8kfIUbuYA1oIQZWaCW8LUY/SF5aVOqRruqyY
+hJfArJuhEEcBhDACAEFMIYHkRBqQnP3EIqAg4yEJFxFQDVth2QjQQOWyamHWxy9L
+FvoffihdgIjhREnEvOSmRBHyCEAAMAkwDzCmyDTRQLoCG5DFbpKDhqoQERdhYWFZ
+RHbHdvBqXYLKX0q5aMdrumqqohq0KgHT1Ly20GzW0k5I8K96+AVZkaypLUEY6YZs
+BXiBxRRN2TYFNMmxPMd6KBeBTmqyjvyyzWA8LEdax45BYcuS47BHxAJDC7SHw5iH
+gJFEAblJXpIwT0FakHgs0QyGDBQlWsAkdGOStmAJsDSLCXuqRkW1I60+YZ3lach1
+CjRDOiIiz5LH1jicuY7srAx7cY7cnIJ/62x6una5bGJrbU7DtBFeaFk+k6LOBjb1
+LBdXtETCHS5Bi31qkCrzxmNv5wdSBxJdwb4n+8ePDw8Zk/cOX2j/+rpjRchk70a9
+Owou/76TX5Xhmoi2FmYmP7/KSlXAvJr4VOB72774wEIJs2X3/I1E2Vxx9Qu6u8R8
+2KNfd8b6k+zihtBFeMLX3RtO3O47nXB7or439WRqauZLbXc0e+jKXOfB2YJzvvKg
+pG3ufD9Ivbv2bWVwz6NfI02tExGwrX+0K76zqurW/NWV7f0zD87Hi7RDS2MxvS+/
+MZbF9TabL2sKRz5cYug2sTJ/46m9M/KRm6nSj7seL1VOTne1z5aGj97/A5ZOGfg=
+=EkEb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/wilson
+
 ==================================================================
+=================================================================
 https://keybase.io/wilson
 --------------------------------------------------------------------
 
