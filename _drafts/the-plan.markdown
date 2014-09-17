@@ -5,10 +5,16 @@ date:   2014-09-13 21:27:11
 image: none
 ---
 
-A lot has happened since [my last post](http://danwilson.co/posts/university). I’ve graduated from university with a 2:1, moved into an apartment in the centre of Manchester, and landed at job at [BJL](http://bjl.co.uk) as their frontend developer. All seems to be going well, but is that actually the case? Not quite.
+A lot has happened since [my last post](http://danwilson.co/2014/05/13/university.html). I’ve graduated from university with a 2:1, moved into an apartment in the centre of Manchester, and landed at job at [BJL](http://bjl.co.uk) as their frontend developer. All seems to be going well, but is that actually the case? Not quite.
 
-You see, when I was at uni I had a lot of free time to develop my skills and fulfil personal goals. Now I have a job, I feel like I have no time at all (which I know isn’t case, I’m just not using my time well). I feel as if my learning has stopped. Of course, I’m learning at my job but not what I want to be learning. We make websites but I want to make apps. And so the plan begins. 
+You see, when I was at university I had a lot of free time to develop my skills and fulfil personal goals. Now I have a job, I feel like I have no time at all (which I know isn’t case, I’m just not using my time well). I feel as if my learning has stopped. Of course, I’m learning at work but it isn’t what I want to be learning. We make websites but I want to make web apps. And so the plan begins. 
 
-I’ve set a goal to develop a set of web apps, mainly focused on fitness tracking (as that ties in with some personal goals), so I can continue to learn and hone my developer skills. Each of the apps with be built using either the MEAN stack or Ruby on Rails. All the code will be open sourced on my [GitHub](http://github.com/wilsonand1) upon completion and (more than likely) will be free to use. There's going to be no time frame on each one, unless I get ridiculous and take forever to complete anything.  
+I’ve set a goal to develop a set of web apps, mainly focused on fitness tracking (as that ties in with some personal goals), so I can continue to learn, and hone my developer skills. Each of the apps with be built using either the MEAN stack or Ruby on Rails, and maybe even a little Django. But the end goal is to get a framework locked down. All the code will be open sourced on my [GitHub](http://github.com/wilsonand1) upon completion and (more than likely) will be free to use. There's going to be no time frame on each one, unless I get ridiculous and take forever to complete anything. To go along side the build process of these application, I’d like to have a small development blog with each one where I can document my learnings.
 
-Part 2 of the plan is iOS. I've always loved the idea of being an iOS developer but every time I try to learn Obj-c, I just fail. I've since bought [The Big Nerd Ranch](http://www.amazon.co.uk/iOS-Programming-Ranch-Guide-Guides/dp/0321942051/ref=sr_1_1?s=books&ie=UTF8&qid=1410819030&sr=1-1&keywords=big+nerd+ranch) book and would love to work through that. With the collection of web apps I plan on making iOS counterpart to go with them.__ 
+Development on the first app is already underway and I hope to have something to show for it soon. 
+
+Part 2 of the plan is iOS. I've always loved the idea of being an iOS developer but every time I try to learn Obj-c, I just fail. I've since bought [The Big Nerd Ranch](http://www.amazon.co.uk/iOS-Programming-Ranch-Guide-Guides/dp/0321942051/ref=sr_1_1?s=books&ie=UTF8&qid=1410819030&sr=1-1&keywords=big+nerd+ranch) book and would love to work through that. The aim is to make an iOS counterpart for each of the web apps I make. This is more of a long term goal and won’t be happening in the near future.
+
+**So to summarise:**
+1. Build cool shit
+2. Get better
