@@ -1,123 +1,76 @@
-://keybase.io/wilson
---------------------------------------------------------------------
-
-I hereby claim:
-
-* I am an admin of http://danwilson.co
-* I am wilson (https://keybase.io/wilson) on keybase.
-* I have a public key with fingerprint F625 3E83 1EEF E11E AF3E  B08C 4108 F3EB FC13 A570
-
-To claim this, I am signing this object:
-
-{
-  "body": {
-    "key": {
-      "fingerprint": "f6253e831eefe11eaf3eb08c4108f3ebfc13a570",
-        "host": "keybase.io",
-        "key_id": "4108f3ebfc13a570",
-        "uid": "ae58cdcf9d23cca9e1a11f01f91ff300",
-        "username": "wilson"
-    },
-      "service": {
-        "hostname": "danwilson.co",
-        "protocol": "http:"
-      },
-      "type": "web_service_binding",
-      "version": 1
-  },
-    "ctime": 1408698673,
-    "expire_in": 157680000,
-    "prev": "88f7cfb54b478ff9a15dcbe209ddf93a4bd9fd45fa5acd4bf0a2f044bdd1646f",
-    "seqno": 14,
-    "tag": "signature"
-}
-
-with the aforementioned key, yielding the PGP signature:
-
------BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v0.3.1
-Comment: https://keybase.io/crypto
-
-yMHcAnicbVFbSBRRGN7VtBRLywuU4cNEBbXJnJ3LzixBhBkYBoJPtcF2ZuYcd3Kd
-GWdm10x3oSyMArMSMhRaCaIUXKxsK7CWjIrELibli0iQhJHSQ6xGiM1s9tZ5Oed8
-/3f5f/7n6zMduc51w9U/ixK+UedY8kfIUbuYA1oIQZWaCW8LUY/SF5aVOqRruqyY
-hJfArJuhEEcBhDACAEFMIYHkRBqQnP3EIqAg4yEJFxFQDVth2QjQQOWyamHWxy9L
-FvoffihdgIjhREnEvOSmRBHyCEAAMAkwDzCmyDTRQLoCG5DFbpKDhqoQERdhYWFZ
-RHbHdvBqXYLKX0q5aMdrumqqohq0KgHT1Ly20GzW0k5I8K96+AVZkaypLUEY6YZs
-BXiBxRRN2TYFNMmxPMd6KBeBTmqyjvyyzWA8LEdax45BYcuS47BHxAJDC7SHw5iH
-gJFEAblJXpIwT0FakHgs0QyGDBQlWsAkdGOStmAJsDSLCXuqRkW1I60+YZ3lach1
-CjRDOiIiz5LH1jicuY7srAx7cY7cnIJ/62x6una5bGJrbU7DtBFeaFk+k6LOBjb1
-LBdXtETCHS5Bi31qkCrzxmNv5wdSBxJdwb4n+8ePDw8Zk/cOX2j/+rpjRchk70a9
-Owou/76TX5Xhmoi2FmYmP7/KSlXAvJr4VOB72774wEIJs2X3/I1E2Vxx9Qu6u8R8
-2KNfd8b6k+zihtBFeMLX3RtO3O47nXB7or439WRqauZLbXc0e+jKXOfB2YJzvvKg
-pG3ufD9Ivbv2bWVwz6NfI02tExGwrX+0K76zqurW/NWV7f0zD87Hi7RDS2MxvS+/
-MZbF9TabL2sKRz5cYug2sTJ/46m9M/KRm6nSj7seL1VOTne1z5aGj97/A5ZOGfg=
-=EkEb
------END PGP MESSAGE-----
-
-And finally, I am proving ownership of this host by posting or
-appending to this document.
-
-View my publicly-auditable identity here: https://keybase.io/wilson
-
 ==================================================================
-=================================================================
 https://keybase.io/wilson
 --------------------------------------------------------------------
 
 I hereby claim:
 
-* I am an admin of http://danwilson.co
-* I am wilson (https://keybase.io/wilson) on keybase.
-* I have a public key with fingerprint 8441 43F3 9512 6869 C295  AC61 E13B 8A30 AF90 E86B
+  * I am an admin of http://danwilson.me
+  * I am wilson (https://keybase.io/wilson) on keybase.
+  * I have a public key with fingerprint 9978 FEE5 0B2A A56A 9163  7437 7158 7896 CFE9 391F
 
 To claim this, I am signing this object:
 
 {
-  "body": {
-    "key": {
-      "fingerprint": "844143f395126869c295ac61e13b8a30af90e86b",
-      "host": "keybase.io",
-      "key_id": "e13b8a30af90e86b",
-      "uid": "ae58cdcf9d23cca9e1a11f01f91ff300",
-      "username": "wilson"
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.3"
+        },
+        "key": {
+            "fingerprint": "9978fee50b2aa56a9163743771587896cfe9391f",
+            "host": "keybase.io",
+            "key_id": "71587896CFE9391F",
+            "uid": "ae58cdcf9d23cca9e1a11f01f91ff300",
+            "username": "wilson"
+        },
+        "merkle_root": {
+            "ctime": 1423349521,
+            "hash": "eaf79739e336164410c34318c80e1ec4260205351fc86922ae7e87b59304537c25604b40714128eeca3e668c3726de7f18dd8e5bd5796e2304a576e46879a31b",
+            "seqno": 150548
+        },
+        "service": {
+            "hostname": "danwilson.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
     },
-    "service": {
-      "hostname": "danwilson.co",
-      "protocol": "http:"
-    },
-    "type": "web_service_binding",
-    "version": 1
-  },
-  "ctime": 1397684994,
-  "expire_in": 157680000,
-  "prev": "1d924e11102737d1ecc640c3fd99bf32ddb88d9b27e3e243b7eb594010ac0a0d",
-  "seqno": 4,
-  "tag": "signature"
+    "ctime": 1423349535,
+    "expire_in": 157680000,
+    "prev": "71937625ee86c02b60b4ca62494ce623944d38cd4a94898843e28397468cf46f",
+    "seqno": 19,
+    "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the PGP signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v0.1.8
-Comment: https://keybase.io/crypto
+Comment: GPGTools - https://gpgtools.org
 
-yMHnAnicbZFtSBRbHMZ3dVfRSDLIqxIik2Evi82ZmZ2dsyXBLkYE2UYUvYjLvJzR
-QZ1Zd2d33XZFir1cQhB7uaihSKb0oS5+C6EwW2WF1SQIivBDisYGoX6om5HFembz
-frvny+E8z+//PBz+M7tzTYXmotrBmpLFjgbz3NRG0HShfisnSgiaFCGcUaIFZS9Z
-UZuQ3+dXVJ1wEhzDAIaWaWgHFMuxUKSgnRdZgAAtcDxN8jIkEccKhI1o1gLGBI4R
-+ACqUTSs4YdXkbD6P3wwa/DIzomSKEOJokWRhwjwAMgkkCGQZZokDTCA/CrfhjAd
-VloDmkp02gishRQRa9Fs8Y4v8epvpEY06n1+TddErRU7zbrucxqDesSXTUKCdyfD
-KyiqhH+NB0LIH1BwgRNgUtQVIxTQ0MFyDISMjUAdPsWPvIpB2LFK4mPUoBCOBBKk
-GAQAICkH7ZAAEkWWIUValiAUZJqSJIHjJChQDkQjiqEFBxLskCEByYskT0q4P4Da
-VY1w4iadb8KRAaVJ5fWgHxGdiakGi8lcaMqz5hh7MxUW7Plvm3eD+ZnWynLP868h
-FC9ejbmc873Wzd4zpRcT4RXVtP/hoYa06y9PlScuvOyqPnW1vju6Mcrefnp+mVls
-KZvtqej+tzj2eXhr+p+Ee65nyNyYgZOXS6Y75YLIgLXNFUs9PnLi2MFmkFoye0/e
-f7Nwc/77H/2W2V468Xrm3o+FieS12cPuK5PvjyfHliJE5WiyDx3ty9j3vRtJW5X1
-P8NFdZfK1OsfHywPuM/G7+xNvUqd/ln7a6ginm4UboxYvtkGz7HD7oJMWs0bqc47
-ULRimqh6O2ZZq57YjC20h8elZ/2lW2r+i6FRz4epNbD+6ct4lyVZ59qV23JrNVbu
-eFT895NtYJcRAw==
-=OIi6
+owFdUm1QFVUY5kM+DaWxSC9cYTadROm2u2e/DkiOgOAMQqVSzoBd9uMsLB93cfdy
+Ba+3mgAtRjInDHFIxlSQGVNhCCYrTAGd4itKCEuHEWiECekP5kgytks4Y51f55z3
+eZ/3ed73/TjE1yvYe8+ukk8HpmCkd8+U4LVzuCbSjQmqVIrFujGxQEEOp3lz8IUI
+i8XyUanA68imqFEOVUK2PD1qERODuZCmK6rDQOE21gYwT4wJN5NlxZGDtCJNMbkw
+CFlORojGBZLnaYaHBANYCrAsQXMsBxlRRhBAQjYoc1Xd+Z+q2AKnXZGM3yf4xOQt
+Jj7ZiBUvBHhEc6IkylAigSjyEBE8Qcg4IRukMsBxE6gjbdHSXqVAN1QbaguRll+A
+7JqqLlgWnYoJICgSAArSJGHo4fVcIwXxMgtZABEADMFQFIGLgAIEJ3I4IpBIkQxO
+4jSgCVnkGEiSPGIRxwo0BDhFA1YkaQanBApnCYogOYREHiCG4UTAkoyEWJngJIlD
+tCDRLGQQaWTxNMsgiuFYyANCMAzoaI9DNcTROE1xHvOtuRQRmbrNpi16k3jHv/Zs
+xjMGK9JUpyqqBUYk1+ksijVNO0uLFrqABLuOzi2Q2AXFIRkje3qmhAH9X0MAHYOh
+kiJFQ3bFRBgSOdw4Zh3kWhgQBCxD0ghxjIiTAoMLlMgzJAUpETEkgBQlAWNSFA8p
+DnIcBRDJAcgaPkWZYuSnbEJDKJ9jcOpKjoN3FmsI83zoE7HEyzvYy9/Px9xar+Cg
+0CervKp9+byloaFlleRfv6t8cu6HZbYdAVnN20K+xMP0qNUxG3wuvByXI5ShtLCK
+/v0TGWm1srVCyRr2iTpH1Zyt9O8Ro64v/1mfOXLWpSZv3npi4Bi7In3F0OX6keDo
+5o6qk6mV18j2y/UpUJWHlmbwmmbpbMy9Olj9Seeb+aP9Ea/c2H2wdt+Ps5uSueFv
+yqOvJE5XX8QjQvyeH7ibiT2oCjwfGW0fbzkeMXpbTvrJk9pUEZjJKQG/9buupJDK
+ofX7Uy+srhsp77nXmFXnl7mu+MApddv8XzPYR0f6iLSHeTDPt07qbaR64m4GnrGM
+Fj54ccnS80kD73hHTHG/Vswk7K2rPHZLtJ6cn554i8ceNlnfzu62NF+q6T089/nU
+2M3OoNZHWUcTxwNQ6/uW0O96pbSQTSVfTwaGtnHP8pH3A3d+da3+zKU31lb63S9x
+z5ZtIAo9lgO16a0hB8MO3Tp6d/rEjZUJ21N8haFTdPi98I2vXQ9wdfd3dzSkzK4H
++trdv4zH1a+pH/uzSu/6YGMHZnd4Rq7eqSkVxrteX9M3tuyxZfvjvp6Ln1kHsxuy
+E2ZPo3DE/9Fos377Ulnv9OD39iJ314z336zf6aatSbn5h595NZooS7JMPup8oW3f
+c7etX6hb3PGb3eTvx9N35KxsaUqOrY73RDsi5uKD+tqH2yfuDGS8O1vpbnvPtu4f
+=wTNL
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -126,4 +79,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/wilson
 
 ==================================================================
-
