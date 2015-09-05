@@ -6,10 +6,9 @@ image: ../images/work.png
 
 # Work
 
-##[ThatGraceGirl](http://thatgracegirl.com)
+##[Sean](http://seants.herokuapp.com)
 
-[Grace](http://twitter.com/thatgracegirlca) has been blogging for just over a year now. And when she started pulling in a lot of hits, she said that she wanted to take her blog to the next level. And what better way to do that than with a new blog design. This site is currently up for Best Designed Blog in the Company Style Blogger Awards, and you can vote <a href="http://www.company.co.uk/magazine-hq/company-style-blogger-awards-2014" target="_blank">here</a>.
-
+Sean was a quick project I threw together to help me keep on top of my timesheets at work. There's a neat feature that times your jobs for you and rounds them to the nearest 15 minute. Sean is built using [Flask](http://flask.pocoo.org) and used the [Foundation](http://foundation.zurb.com) CSS framework. Sean is free for anyone to use.
 
 <div class="browser">
 <div class="top--bar">
@@ -17,13 +16,14 @@ image: ../images/work.png
 </div>
 </div>
 <div class="window">
-<img src="../images/tgg.png" alt="Recur fitness monitoring application">
+<img src="../images/sean.png" alt="Sean timesheet manager">
 </div>
 </div>
 
 <p class="view--site">
-<a href="http://thatgracegirl.com" class="view--site--btn">View Site</a>
+<a href="http://seants.herokuapp.com" class="view--site--btn">View Site</a>
 </p>
+
 
 ##[Recur](http://recurapp.co)
 
