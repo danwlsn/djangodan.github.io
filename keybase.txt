@@ -4,73 +4,71 @@ https://keybase.io/wilson
 
 I hereby claim:
 
-  * I am an admin of http://danwilson.me
+  * I am an admin of http://danwilson.co
   * I am wilson (https://keybase.io/wilson) on keybase.
   * I have a public key with fingerprint 9978 FEE5 0B2A A56A 9163  7437 7158 7896 CFE9 391F
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
     "body": {
-        "client": {
-            "name": "keybase.io node.js client",
-            "version": "0.7.3"
-        },
         "key": {
+            "eldest_kid": "0101bcae227035a83faab63ef9dae5dfc052914c2176dffb062b941a1edbfacf87c60a",
             "fingerprint": "9978fee50b2aa56a9163743771587896cfe9391f",
             "host": "keybase.io",
-            "key_id": "71587896CFE9391F",
+            "key_id": "71587896cfe9391f",
+            "kid": "0101bcae227035a83faab63ef9dae5dfc052914c2176dffb062b941a1edbfacf87c60a",
             "uid": "ae58cdcf9d23cca9e1a11f01f91ff300",
             "username": "wilson"
         },
-        "merkle_root": {
-            "ctime": 1423349521,
-            "hash": "eaf79739e336164410c34318c80e1ec4260205351fc86922ae7e87b59304537c25604b40714128eeca3e668c3726de7f18dd8e5bd5796e2304a576e46879a31b",
-            "seqno": 150548
+        "revoke": {
+            "sig_ids": [
+                "22c79f9958bd0cd589e144b57080069ae4b2adfb0fd01378902ddcb9f86829950f"
+            ]
         },
         "service": {
-            "hostname": "danwilson.me",
+            "hostname": "danwilson.co",
             "protocol": "http:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1423349535,
+    "ctime": 1443263181,
     "expire_in": 157680000,
-    "prev": "71937625ee86c02b60b4ca62494ce623944d38cd4a94898843e28397468cf46f",
-    "seqno": 19,
+    "prev": "b61c63da3ab3e7e6c127d5f21635b9379bb3c85b79cf499e285d05741b9babea",
+    "seqno": 21,
     "tag": "signature"
 }
 
-which yields the PGP signature:
+which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
 Comment: GPGTools - https://gpgtools.org
 
-owFdUm1QFVUY5kM+DaWxSC9cYTadROm2u2e/DkiOgOAMQqVSzoBd9uMsLB93cfdy
-Ba+3mgAtRjInDHFIxlSQGVNhCCYrTAGd4itKCEuHEWiECekP5kgytks4Y51f55z3
-eZ/3ed73/TjE1yvYe8+ukk8HpmCkd8+U4LVzuCbSjQmqVIrFujGxQEEOp3lz8IUI
-i8XyUanA68imqFEOVUK2PD1qERODuZCmK6rDQOE21gYwT4wJN5NlxZGDtCJNMbkw
-CFlORojGBZLnaYaHBANYCrAsQXMsBxlRRhBAQjYoc1Xd+Z+q2AKnXZGM3yf4xOQt
-Jj7ZiBUvBHhEc6IkylAigSjyEBE8Qcg4IRukMsBxE6gjbdHSXqVAN1QbaguRll+A
-7JqqLlgWnYoJICgSAArSJGHo4fVcIwXxMgtZABEADMFQFIGLgAIEJ3I4IpBIkQxO
-4jSgCVnkGEiSPGIRxwo0BDhFA1YkaQanBApnCYogOYREHiCG4UTAkoyEWJngJIlD
-tCDRLGQQaWTxNMsgiuFYyANCMAzoaI9DNcTROE1xHvOtuRQRmbrNpi16k3jHv/Zs
-xjMGK9JUpyqqBUYk1+ksijVNO0uLFrqABLuOzi2Q2AXFIRkje3qmhAH9X0MAHYOh
-kiJFQ3bFRBgSOdw4Zh3kWhgQBCxD0ghxjIiTAoMLlMgzJAUpETEkgBQlAWNSFA8p
-DnIcBRDJAcgaPkWZYuSnbEJDKJ9jcOpKjoN3FmsI83zoE7HEyzvYy9/Px9xar+Cg
-0CervKp9+byloaFlleRfv6t8cu6HZbYdAVnN20K+xMP0qNUxG3wuvByXI5ShtLCK
-/v0TGWm1srVCyRr2iTpH1Zyt9O8Ro64v/1mfOXLWpSZv3npi4Bi7In3F0OX6keDo
-5o6qk6mV18j2y/UpUJWHlmbwmmbpbMy9Olj9Seeb+aP9Ea/c2H2wdt+Ps5uSueFv
-yqOvJE5XX8QjQvyeH7ibiT2oCjwfGW0fbzkeMXpbTvrJk9pUEZjJKQG/9buupJDK
-ofX7Uy+srhsp77nXmFXnl7mu+MApddv8XzPYR0f6iLSHeTDPt07qbaR64m4GnrGM
-Fj54ccnS80kD73hHTHG/Vswk7K2rPHZLtJ6cn554i8ceNlnfzu62NF+q6T089/nU
-2M3OoNZHWUcTxwNQ6/uW0O96pbSQTSVfTwaGtnHP8pH3A3d+da3+zKU31lb63S9x
-z5ZtIAo9lgO16a0hB8MO3Tp6d/rEjZUJ21N8haFTdPi98I2vXQ9wdfd3dzSkzK4H
-+trdv4zH1a+pH/uzSu/6YGMHZnd4Rq7eqSkVxrteX9M3tuyxZfvjvp6Ln1kHsxuy
-E2ZPo3DE/9Fos377Ulnv9OD39iJ314z336zf6aatSbn5h595NZooS7JMPup8oW3f
-c7etX6hb3PGb3eTvx9N35KxsaUqOrY73RDsi5uKD+tqH2yfuDGS8O1vpbnvPtu4f
-=wTNL
+owGtkm1QFGUAxw8NyiOSKbAgEtoKkBjal9uX54SCmcbAKScoDAfi3Gf3WdiAu+Pe
+AAmmAJuwroEhRJwhyrBGAizwkvJ6EREDVEKmaBBSymAQsLmBFBWl58i+9bFPO7v7
+f/nt/9magLUarU9hRvHeoRkQ7jM4AzXb/SyjpQQ0ySWEvpTIQ6sXlC8jq82Qp8qE
+niApkoKSiGiaJxlWFBhFFCHHIAXIImJlRSJZGlA6iaZ4TlYUSHI0BDpKpJAMFVFS
+BF7iSJGIJRTVmIMsZotqtOFYAHhBQYglIS2KLCcCimN4HcPzFCvwAuAkBQEGUAo2
+5pqsXgeGg6IVxakm/AzfGFbx/kP/P3PbV+OwR5BkCbtpRpJEgLCSUkhKwZ0KQ5Je
+oRVZjGIBwuoiNd9qMhJlsYQFOUx5yLuqVc3ByFZCn0nQtMQDBQBWgDIpyayA43Q6
+yPKkQJIcEJEOryJjJkUmKQZ/HknLsgSBInACjW2kQryKs3GfQ5VWw70b3emWReM/
+9XGSdymzxWQzSaZ8/CbXZjPrvVC2EvMqZSeChjshBqgaZXxC2OFAFquK6fUUlko2
+1ZuK8RiaYyiBiiVQsVm1IIPqVbA8h5FJ0tuDHDgTcpTEMbLIiJBBPOIkiuZlVqHx
+8bIQMDyAkJEEFvJAUnQAIFpgZZLldRQEUITIO7gVFRpNhJ7GVTYxB2fi5YyizW5B
+RJm2ek3YXRofrcbPd43339Vo1wX++0OHtQdqqvv+VH9OGw+nCrLJjVGR1xqezB6Z
++n08OuLm9PWHtG6uo981GwJvHKqO2DneNNS31Xrf93VNKReDowty/RZ7r667lL37
+wI+aD5c2Fa+PPp2V0RMydurL0IR2d/sb93S/r+9aesQYrr2y+/JZeqC25JeK5sMz
+7qdiClwJ4fLmuncjGvZJmY1fEVEtN5wSUTXUO33lXkNF6CDoqFqYuWYaibreGeFv
+f3wyK8O/+UzqxJHvUuvffDSvaE6fP9qwtzHZ/u02/8DcRJ/g37aMr82h6oeTMn1/
+rUjsOZ3cFBxfeM7Fm50oZQX49K2vaRn7yO2yHDlZc/Nkgu+tXY2JpbXVd/eXPtZ9
+4oK71xMXxHSpx+DOH+ZvB9Xb97sasg48cT49aW7l1HJaoSP1fvvWfTVfPPAy1Zp0
+iNv//HDq0sqEO+ztjomA9MWqyMX+TQFPezybPa+8p2Nen92yceXsaGyQb5jfnuMD
+KdaoIufypw7y6JnWoAe70cffeF44EfdJZT3jdIxVhzXWxNw2Ncd3zc/XBl6aO8aF
+vrhhR+ckE1QdHLehsS0q/fBrR8XBZy9+XTkRU64bdtYNtL21feGPgZ60/gtNu94Z
+ZD2Z06Gzrpb48ylafVtA8uRBYirvr5IWTeJI+fLB5hEn9czusrHjhZXuWy8t+D23
+9EHr1W2ff/ZwyOUdQ5E/aafKe+PPdcz+DQ==
+=JBXP
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
