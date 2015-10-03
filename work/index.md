@@ -25,7 +25,7 @@ Sean was a quick project I threw together to help me keep on top of my timesheet
 </p>
 
 
-##[Recur](http://recurapp.co)
+##[Recur](https://recur.herokuapp.com/)
 
 Recur is a web applciation for monitoring your fitness progress I built for my final year progject at university. It can monitor your current and goal weight, your fitness goals, and your fitness activity. With all of this information recur will be able to show you how well you are doing and keep you motivated! Recur was builtusing Ruby on Rails and hosted on [Heroku](http://heroku.com).
 
@@ -41,7 +41,7 @@ Recur is a web applciation for monitoring your fitness progress I built for my f
 </div>
 
 <p class="view--site">
-<a href="http://recurapp.co" class="view--site--btn">View Site</a>
+<a href="https://recur.herokuapp.com/" class="view--site--btn">View Site</a>
 </p>
 
 ##[Unify](http://danwilson.co/unify)
