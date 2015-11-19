@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Work | Danny Wilson | Frontend Developer | Manchester, UK
+title: Work | Danny Wilson | Django Developer | Manchester, UK
 image: ../images/work.png
 ---
 

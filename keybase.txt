@@ -12,6 +12,10 @@ To do so, I am signing this object:
 
 {
     "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.8.23"
+        },
         "key": {
             "eldest_kid": "0101bcae227035a83faab63ef9dae5dfc052914c2176dffb062b941a1edbfacf87c60a",
             "fingerprint": "9978fee50b2aa56a9163743771587896cfe9391f",
@@ -21,11 +25,6 @@ To do so, I am signing this object:
             "uid": "ae58cdcf9d23cca9e1a11f01f91ff300",
             "username": "wilson"
         },
-        "revoke": {
-            "sig_ids": [
-                "22c79f9958bd0cd589e144b57080069ae4b2adfb0fd01378902ddcb9f86829950f"
-            ]
-        },
         "service": {
             "hostname": "danwilson.co",
             "protocol": "http:"
@@ -33,10 +32,10 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1443263181,
+    "ctime": 1447959397,
     "expire_in": 157680000,
-    "prev": "b61c63da3ab3e7e6c127d5f21635b9379bb3c85b79cf499e285d05741b9babea",
-    "seqno": 21,
+    "prev": "ab444bedd65e5e78bb5b9e24a2c836863685575539f3bc8ff545309548d52ee7",
+    "seqno": 28,
     "tag": "signature"
 }
 
@@ -45,30 +44,29 @@ which yields the signature:
 -----BEGIN PGP MESSAGE-----
 Comment: GPGTools - https://gpgtools.org
 
-owGtkm1QFGUAxw8NyiOSKbAgEtoKkBjal9uX54SCmcbAKScoDAfi3Gf3WdiAu+Pe
-AAmmAJuwroEhRJwhyrBGAizwkvJ6EREDVEKmaBBSymAQsLmBFBWl58i+9bFPO7v7
-f/nt/9magLUarU9hRvHeoRkQ7jM4AzXb/SyjpQQ0ySWEvpTIQ6sXlC8jq82Qp8qE
-niApkoKSiGiaJxlWFBhFFCHHIAXIImJlRSJZGlA6iaZ4TlYUSHI0BDpKpJAMFVFS
-BF7iSJGIJRTVmIMsZotqtOFYAHhBQYglIS2KLCcCimN4HcPzFCvwAuAkBQEGUAo2
-5pqsXgeGg6IVxakm/AzfGFbx/kP/P3PbV+OwR5BkCbtpRpJEgLCSUkhKwZ0KQ5Je
-oRVZjGIBwuoiNd9qMhJlsYQFOUx5yLuqVc3ByFZCn0nQtMQDBQBWgDIpyayA43Q6
-yPKkQJIcEJEOryJjJkUmKQZ/HknLsgSBInACjW2kQryKs3GfQ5VWw70b3emWReM/
-9XGSdymzxWQzSaZ8/CbXZjPrvVC2EvMqZSeChjshBqgaZXxC2OFAFquK6fUUlko2
-1ZuK8RiaYyiBiiVQsVm1IIPqVbA8h5FJ0tuDHDgTcpTEMbLIiJBBPOIkiuZlVqHx
-8bIQMDyAkJEEFvJAUnQAIFpgZZLldRQEUITIO7gVFRpNhJ7GVTYxB2fi5YyizW5B
-RJm2ek3YXRofrcbPd43339Vo1wX++0OHtQdqqvv+VH9OGw+nCrLJjVGR1xqezB6Z
-+n08OuLm9PWHtG6uo981GwJvHKqO2DneNNS31Xrf93VNKReDowty/RZ7r667lL37
-wI+aD5c2Fa+PPp2V0RMydurL0IR2d/sb93S/r+9aesQYrr2y+/JZeqC25JeK5sMz
-7qdiClwJ4fLmuncjGvZJmY1fEVEtN5wSUTXUO33lXkNF6CDoqFqYuWYaibreGeFv
-f3wyK8O/+UzqxJHvUuvffDSvaE6fP9qwtzHZ/u02/8DcRJ/g37aMr82h6oeTMn1/
-rUjsOZ3cFBxfeM7Fm50oZQX49K2vaRn7yO2yHDlZc/Nkgu+tXY2JpbXVd/eXPtZ9
-4oK71xMXxHSpx+DOH+ZvB9Xb97sasg48cT49aW7l1HJaoSP1fvvWfTVfPPAy1Zp0
-iNv//HDq0sqEO+ztjomA9MWqyMX+TQFPezybPa+8p2Nen92yceXsaGyQb5jfnuMD
-KdaoIufypw7y6JnWoAe70cffeF44EfdJZT3jdIxVhzXWxNw2Ncd3zc/XBl6aO8aF
-vrhhR+ckE1QdHLehsS0q/fBrR8XBZy9+XTkRU64bdtYNtL21feGPgZ60/gtNu94Z
-ZD2Z06Gzrpb48ylafVtA8uRBYirvr5IWTeJI+fLB5hEn9czusrHjhZXuWy8t+D23
-9EHr1W2ff/ZwyOUdQ5E/aafKe+PPdcz+DQ==
-=JBXP
+owGtUntMU2ccbXnpQGanTB5uo7tdJhNW7/tRiJlpdbDMmYJ2DpDuPr4LV0pb2ttC
+ITAyH2BmcEt4bBiIbBrjJGzTzIyyKINAjARxYYrTgTINiEbDQMxGJN29jC1Zsj93
+k5vc3N8553fO+b6PY8M10drS3eVNw9NMsnZwmtPY3lkvVkKcSwhApkqId0jAKatf
+TrYEQCaoGAQ41guMkkvvdAnAuNerX8akQX7g8Uoup4KCjbQRxaCqNBWvsoFDAF7Z
+XiwJ6hSBEY5nAYpSMEawNCayLEdiQGQEFhCCyMMEyiA4jyIUKYgiB5Mox+AIiwCB
+E1lepCmehFlloSg5C4HH7ZFUixDDULQIAAFzKMsSJMsgJEbhGEUhBE3RDMmLgMEY
+RFSIRS6v/K8w0JJT+5K9/8D/z759S3IKh+YFXmGjGM+zDFCQiAgjorJTxGBYBXqB
+Z7n4MsnhVbpVKlX++SUeqLWqOZbnAuv8C2Lk1TRuj0t28S6HMimSZbdJJcoB95IS
+4OzLGnZOcgpKif8cXpNyeogC5WVJVUVwnGIIpQUqDQLlbskD7JKKICiShpVH3QP8
+ahYOx3EOCAJJAAJQNMcRHANQnEV5GiNpUnkJgiIIjBExjqdFkcAJDGYInBYIFAAK
+UmOVOl2QCaUVo2yhoumVCp2s7PMAqOpQ2AsRGm20JioyTL2fmuhndH9f2lqbThNM
+2Gsu5S3GKv39uy8Te84Vvj40253x6YUK/8guXdetzZYVHUnuNR3ZoflI19aOtH3+
+sPoPgsfbS+DNlqyqhXlL+mfFK+defHijOlHaJta3567oNV3vrGvo2mA+bHnjpMO/
+xV7bcsRaGN24LXCs7PneuNAvyacao04sPlrcZ21eiAo9vQKHz51Y+Um1qeD09NXf
+Pm+1J7T5Zi2T11L6V5FXkwpSzTGJLVbEnDLVtm5i7FcazRReHW5Yffm1hYHe4rX9
+d2MOhQbWd5/dODcTQWfX7J/fkJmzfSbHOP9m7L3UvtHJkO/8oFbbob/w06oHmpJb
+N/Vd+HRe8EOdNct2p67om+zTax9+1WN975Wsc7GeqDrDl4GeptmzPxhGKwbr84tQ
+6why+6hHN77lQPnqe3quZd3THc2D7z4bkwEO5n3/85g8Lg+nb6p46+2bN76evz4T
+2B6fMTJafSanB02bWmx78iQXOXDZEGugtQlJhs6y5hrbS8fnIqAfDfV5k1fuTFVc
+831rPJrSHo70nZpY8z4fURyXHxts2Nj/YGLg90sp1XsQy07fxWN4X2bnUHkF2J2c
+6zVXH+7Ovz/yna7hkkmL1j4e2HSwtv0iawseSbydnsy0lOU85/gjfqL1ZNSQsOtM
+a1ywIN68dSey/4vwsfKQtuajyPOPOCxV0GtsOypzxhvRx+kJfwI=
+=szOk
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
