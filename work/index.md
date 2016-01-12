@@ -6,7 +6,7 @@ image: ../images/work.png
 
 # Work
 
-##[Philms](http://films.danwilon.co)
+##[Philms](http://films.danwilson.co)
 
 Philms was a super quick project I put together over Christmas. Every year I tell my self to keep a list of films I've watched, so I decided to build something to help my do it. You can see the project's [source code](https://github.com/wilsonand1/philms) on my GitHub.
 
