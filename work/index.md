@@ -21,7 +21,7 @@ Philms was a super quick project I put together over Christmas. Every year I tel
 </div>
 
 <p class="view--site">
-<a href="http://films.danwilon.co" class="view--site--btn">View Site</a>
+<a href="http://films.danwilson.co" class="view--site--btn">View Site</a>
 </p>
 
 ##[Sean](http://seants.herokuapp.com)
