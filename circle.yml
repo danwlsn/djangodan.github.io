@@ -1,0 +1,11 @@
+machine:
+  ruby:
+    version: rbx-2.3
+
+dependencies:
+  post:
+    - gem install jekyll redcarpet
+
+test:
+  override:
+    - jekyll build
