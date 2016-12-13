@@ -10,8 +10,8 @@ test:
   override:
     - jekyll build
 
-  deployment:
-    production:
-      branch: master
-      commands:
-        - cap production deploy
+deployment:
+  production:
+    branch: master
+    commands:
+      - cap production deploy
