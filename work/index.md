@@ -6,24 +6,6 @@ image: ../images/work.png
 
 # Work
 
-##[Philms](http://films.danwilson.co)
-
-Philms was a super quick project I put together over Christmas. Every year I tell my self to keep a list of films I've watched, so I decided to build something to help my do it. You can see the project's [source code](https://github.com/wilsonand1/philms) on my GitHub.
-
-<div class="browser">
-<div class="top--bar">
-<div class="buttons">
-</div>
-</div>
-<div class="window">
-<img src="../images/philms.png" alt="Philms - Film logger">
-</div>
-</div>
-
-<p class="view--site">
-<a href="http://films.danwilson.co" class="view--site--btn">View Site</a>
-</p>
-
 ##[Sean](http://seants.herokuapp.com)
 
 Sean was a quick project I threw together to help me keep on top of my timesheets at work. There's a neat feature that times your jobs for you and rounds them to the nearest 15 minute. Sean is built using [Flask](http://flask.pocoo.org) and used the [Foundation](http://foundation.zurb.com) CSS framework. Sean is free for anyone to use.
