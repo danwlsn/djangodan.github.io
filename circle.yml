@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   post:
-    - gem install jekyll redcarpet
+    - gem install jekyll capistrano
 
 test:
   override:
